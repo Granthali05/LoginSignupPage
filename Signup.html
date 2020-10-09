@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <style>
+        h1{
+            font:bolder;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+body{
+    
+    background-color:white;
+    margin-top: 100px;
+}
+div{
+   margin-left: 500px;
+   box-sizing: border-box;
+   width: 450px;;
+   height: 430px;
+    box-shadow: black;
+    border-width: 500px;
+    border:1px solid rgb(237, 233, 233);
+   background-color:white ;
+ box-shadow: 2px 5px 10px #c2c2c2;
+
+
+}
+.name{
+    margin-right: 90px;
+}
+
+.in{
+    margin-left: 30px;
+     padding:5px 10px ;
+    width:350px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid white;
+ box-shadow: 2px 5px 10px #c2c2c2;
+
+}
+.sbtn{
+    width: 200px;
+height: 40px;
+background-color: white;
+ border-radius: 10px;
+ border: 1px solid white;
+ box-shadow: 2px 5px 10px #c2c2c2;
+
+}
+label{
+
+    font-size:large;
+    font-style: normal;
+    margin-left: 30px;
+    text-align: center;
+    /* margin-right:100px; */
+    font-style: normal;
+    font-size: large;
+
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin-top:60px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1> SIGN IN</h1>
+    </center><br>
+    <div class="Signup">
+        <form action="LoginPage.html"><br><br>
+            <label class="label">Name</label><br>
+            <input type="text" placeholder="Enter Your Name" class="in" minlength="4"><br><br>
+            <label class="label">Mobile</label><br>
+            <input type="number" name="phoneno"minlength="10" maxlength="10" class="in" placeholder="Enter Your Number"><br><br>
+            <label class="label" >Email</label><br>
+            <input type="email" placeholder="Enter Your Email" name="mail" class="in"><br><br>
+            <label class="label">Password</label><br>
+            <input type="password" placeholder="Enter Your password" class="in"><br><br>
+           <center> <input type="submit"   class="sbtn"><br></center>
+        </form>
+        <p>Already have an Account? <a href="LoginPage.html">Log In</a></p>
+
+
+<center>
+    <p>&#169 By Granthali Jadhav</p>
+</center>
+
+    </div>
+</body>
+</html>
